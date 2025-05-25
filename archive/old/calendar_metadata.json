@@ -1,0 +1,88 @@
+{
+  "days_of_week": [
+    {
+      "greyhawk": "Starday",
+      "real": "Saturday"
+    },
+    {
+      "greyhawk": "Sunday",
+      "real": "Sunday"
+    },
+    {
+      "greyhawk": "Moonday",
+      "real": "Monday"
+    },
+    {
+      "greyhawk": "Godsday",
+      "real": "Tuesday"
+    },
+    {
+      "greyhawk": "Waterday",
+      "real": "Wednesday"
+    },
+    {
+      "greyhawk": "Earthday",
+      "real": "Thursday"
+    },
+    {
+      "greyhawk": "Freeday",
+      "real": "Friday"
+    }
+  ],
+  "months": [
+    {
+      "greyhawk": "Fireseek",
+      "real": "January"
+    },
+    {
+      "greyhawk": "Readying",
+      "real": "February"
+    },
+    {
+      "greyhawk": "Coldeven",
+      "real": "March"
+    },
+    {
+      "greyhawk": "Planting",
+      "real": "April"
+    },
+    {
+      "greyhawk": "Flocktime",
+      "real": "May"
+    },
+    {
+      "greyhawk": "Wealsun",
+      "real": "June"
+    },
+    {
+      "greyhawk": "Reaping",
+      "real": "July"
+    },
+    {
+      "greyhawk": "Goodmonth",
+      "real": "August"
+    },
+    {
+      "greyhawk": "Harvester",
+      "real": "September"
+    },
+    {
+      "greyhawk": "Patchwall",
+      "real": "October"
+    },
+    {
+      "greyhawk": "Ready'reat",
+      "real": "November"
+    },
+    {
+      "greyhawk": "Sunsebb",
+      "real": "December"
+    }
+  ],
+  "festivals": [
+    "Needfest",
+    "Growfest",
+    "Richfest",
+    "Brewfest"
+  ]
+}

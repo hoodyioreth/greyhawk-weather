@@ -1,0 +1,19 @@
+{
+  "Luna": {
+    "cycle_days": 28,
+    "phases": {
+      "0": "new",
+      "7": "waxing_half",
+      "14": "full",
+      "21": "waning_half"
+    }
+  },
+  "Celene": {
+    "appearances": {
+      "Needfest": 4,
+      "Growfest": 4,
+      "Richfest": 4,
+      "Brewfest": 4
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "Greyhawk": {
+    "lat": 41.5,
+    "lon": 0.0,
+    "climate_koppen": "Dfa",
+    "climate_description": "Crossroads metropolis with inland continental climate. Cold winters, hot humid summers, and transitional storms.",
+    "weather_profile": "Unpredictable winds, river fog, icy winters, muggy summers."
+  },
+  "Verbobonc": {
+    "lat": 41.0,
+    "lon": -0.84,
+    "climate_koppen": "Cfb",
+    "climate_description": "Temperate lowland city along the Velverdyva River. Fertile lands and long growing seasons support gnome agriculture and regional trade.",
+    "weather_profile": "Fog-laced mornings, mild winters, stormy summers, temperate breezes."
+  },
+  "Hommlet": {
+    "lat": 40.5,
+    "lon": -0.53,
+    "climate_koppen": "Dfb",
+    "climate_description": "Edge-of-forest village with mild summers, stormy springs, and autumn fogs. Nestled near Gnarley Forest with significant rainfall.",
+    "weather_profile": "Bordering forest twilight. Dewy mornings. Thunderstorms frequent in late spring."
+  },
+  "Nulb": {
+    "lat": 40.2,
+    "lon": -0.27,
+    "climate_koppen": "Cfa",
+    "climate_description": "Swampy riverside village plagued by summer humidity and mist. Strategic location on the Imredys Run fosters stormy weather and runoff.",
+    "weather_profile": "Swamp fog. Stagnant humidity. Afternoon lightning."
+  },
+  "Rel Mord": {
+    "lat": 44.0,
+    "lon": 5.2,
+    "climate_koppen": "Af",
+    "climate_description": "Located in a humid belt with rich soil and consistent rainfall. The climate supports lush vegetation and frequent thunderstorms.",
+    "weather_profile": "Steady rains. Lush vegetation. Tropical air with evening showers."
+  },
+  "Dyvers": {
+    "lat": 41.2,
+    "lon": -0.3,
+    "climate_koppen": "Aw",
+    "climate_description": "Situated at a trade crossroads, Dyvers endures hot summers and dry winters. Maritime influence tempers heat but adds humidity.",
+    "weather_profile": "Sultry summers. Coastal winds. Intermittent monsoon rains."
+  },
+  "Chendl": {
+    "lat": 43.0,
+    "lon": -1.1,
+    "climate_koppen": "Dfc",
+    "climate_description": "Royal capital with lake winds and snow-fed forest edges.",
+    "weather_profile": "Cold drizzle, evergreen air, snow squalls."
+  },
+  "Sobanwych": {
+    "lat": 40.8,
+    "lon": -0.4,
+    "climate_koppen": "Cfb",
+    "climate_description": "Forest-reclaimed elven-human village. Mild and magical, deep within Gnarley.",
+    "weather_profile": "Canopy-filtered rain, soft breezes, sylvan mist."
+  },
+  "Ostverk": {
+    "lat": 40.4,
+    "lon": -0.45,
+    "climate_koppen": "Cfb",
+    "climate_description": "Military border post with cool breezes and forest spillover.",
+    "weather_profile": "Wind off the high road, morning fog, spring storms."
+  },
+  "Greenway Valley": {
+    "lat": 40.9,
+    "lon": -0.6,
+    "climate_koppen": "Dfb",
+    "climate_description": "Sheltered gnome heartland. Fertile, brisk, with productive summers and colorful autumns.",
+    "weather_profile": "Morning mist, orchard breezes, valley rain."
+  },
+  "Elredd": {
+    "lat": 39.2,
+    "lon": 0.8,
+    "climate_koppen": "Aw",
+    "climate_description": "Tropical Savanna",
+    "weather_profile": "Hot inland humidity, intermittent sea winds, summer downpours."
+  },
+  "Narwell": {
+    "lat": 40.0,
+    "lon": 0.5,
+    "climate_koppen": "Aw",
+    "climate_description": "Tropical Savanna",
+    "weather_profile": "Rolling hills fog, spring bloom rains, summer heat shimmer."
+  },
+  "Safeton": {
+    "lat": 40.1,
+    "lon": 0.7,
+    "climate_koppen": "Cfa",
+    "climate_description": "Coastal river trade town. Mild winters, wet summers, maritime storms frequent.",
+    "weather_profile": "Salt breezes, storm surges, humid squalls."
+  },
+  "Hardby": {
+    "lat": 40.9,
+    "lon": 0.1,
+    "climate_koppen": "BSh",
+    "climate_description": "Dry bluff city with inland exposure. Hot summers, dry winters, sand-laced winds.",
+    "weather_profile": "Dusty gusts, dry heat, windstorms."
+  },
+  "Rel Deven": {
+    "lat": 44.0,
+    "lon": 6.3,
+    "climate_koppen": "Af",
+    "climate_description": "Tropical Rainforest",
+    "weather_profile": "Rainfall year-round, tropical gusts, lush canopy storms."
+  },
+  "Willip": {
+    "lat": 44.2,
+    "lon": -1.2,
+    "climate_koppen": "Dfb",
+    "climate_description": "Borderland hill city. Cold winters, mild rains, fortified orchards.",
+    "weather_profile": "Snowmelt runoff, spring breezes, hillside fog."
+  },
+  "Leukish": {
+    "lat": 45.2,
+    "lon": -2.0,
+    "climate_koppen": "Af",
+    "climate_description": "Tropical Rainforest",
+    "weather_profile": "Jungle heat, afternoon mists, nightly warm showers."
+  },
+  "Trigol": {
+    "lat": 45.5,
+    "lon": -1.9,
+    "climate_koppen": "Af",
+    "climate_description": "Tropical Rainforest",
+    "weather_profile": "Dense rainforest storms, vibrant canopy humidity, booming thunder."
+  },
+  "Niole Dra": {
+    "lat": 43.8,
+    "lon": -2.5,
+    "climate_koppen": "Af",
+    "climate_description": "Tropical Rainforest",
+    "weather_profile": "Misty green haze, warm rainfall, overgrown quiet heat."
+  },
+  "Gradsul": {
+    "lat": 42.9,
+    "lon": -2.8,
+    "climate_koppen": "Af",
+    "climate_description": "Tropical Rainforest",
+    "weather_profile": "Heavy downpours, muggy air, thunderous twilight clouds."
+  },
+  "Westkeep": {
+    "lat": 40.5,
+    "lon": -3.0,
+    "climate_koppen": "Af",
+    "climate_description": "Tropical Rainforest",
+    "weather_profile": "Tropical tempests, coastal thunder rolls, humid gusts inland."
+  },
+  "Kron Hills": {
+    "lat_range": [
+      40.7,
+      41.3
+    ],
+    "lon_range": [
+      -1.2,
+      -0.7
+    ],
+    "center": {
+      "lat": 41.0,
+      "lon": -0.95
+    },
+    "climate_koppen": "Dfa",
+    "climate_description": "Hot Summer Continental",
+    "weather_profile": "Brisk hilltop breezes, cool rain over meadows, scattered mists.",
+    "lat": 41.0,
+    "lon": -0.95
+  },
+  "Gnarley Forest": {
+    "lat_range": [
+      40.0,
+      42.2
+    ],
+    "lon_range": [
+      -1.8,
+      -0.6
+    ],
+    "center": {
+      "lat": 41.1,
+      "lon": -1.2
+    },
+    "climate_koppen": "Cfb",
+    "climate_description": "Perpetual forest twilight. Towering oaks, damp moss, sudden sunbreaks.",
+    "weather_profile": "Forest mist, shaded glades, afternoon downpours.",
+    "lat": 41.1,
+    "lon": -1.2
+  },
+  "Welkwood": {
+    "lat_range": [
+      39.5,
+      40.8
+    ],
+    "lon_range": [
+      -1.2,
+      0.2
+    ],
+    "center": {
+      "lat": 40.1,
+      "lon": -0.5
+    },
+    "climate_koppen": "Cfa",
+    "climate_description": "Faerie-infused, verdant forest with brighter glades than Gnarley.",
+    "lat": 40.1,
+    "lon": -0.5,
+    "weather_profile": "Sunbursts, summer thunder, fey dewfall."
+  },
+  "Bright Desert": {
+    "lat_range": [
+      38.2,
+      40.2
+    ],
+    "lon_range": [
+      1.2,
+      3.0
+    ],
+    "center": {
+      "lat": 39.2,
+      "lon": 2.1
+    },
+    "climate_koppen": "BWh",
+    "climate_description": "Stark wasteland of scorched dunes and ruin-choked cliffs.",
+    "lat": 39.2,
+    "lon": 2.1,
+    "weather_profile": "Blistering sun, whirling sand, dry thunder."
+  },
+  "Cairn Hills": {
+    "lat_range": [
+      40.5,
+      41.8
+    ],
+    "lon_range": [
+      -1.0,
+      0.1
+    ],
+    "center": {
+      "lat": 41.15,
+      "lon": -0.45
+    },
+    "climate_koppen": "Dfb",
+    "climate_description": "Wind-blasted hills riddled with stone barrows.",
+    "lat": 41.15,
+    "lon": -0.45,
+    "weather_profile": "Chill gusts, spring squalls, rock-shadowed haze."
+  },
+  "Wild Coast": {
+    "lat_range": [
+      39.0,
+      41.0
+    ],
+    "lon_range": [
+      0.5,
+      1.0
+    ],
+    "center": {
+      "lat": 40.0,
+      "lon": 0.75
+    },
+    "climate_koppen": "Cfa",
+    "climate_description": "Maritime strip with unpredictable rains, piratical winds, and sunlit calm.",
+    "weather_profile": "Salt wind, monsoon squalls, cloudless heat.",
+    "lat": 40.0,
+    "lon": 0.75
+  }
+}

@@ -1,0 +1,6 @@
+pathlib
+python-dateutil
+matplotlib
+pillow
+pyyaml
+rich
