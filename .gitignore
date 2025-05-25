@@ -1,0 +1,47 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# macOS system files
+.DS_Store
+
+# Output / export / logs
+exports/
+archive/
+*.log
+
+# Jupyter and IDE-specific
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.env
+
+# Compiled shared libraries
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# PyInstaller
+*.spec
+
+# Build artifacts
+build/
+dist/
