@@ -31,3 +31,15 @@ See [`requirements.txt`](requirements.txt)
 - [Greyhawk Encounter Tables](https://github.com/hoodyioreth/greyhawk-encounters)
 
 Part of the [Greyhawk Tools Suite](https://github.com/hoodyioreth/greyhawk-suite)
+
+---
+
+## 🧯 Deactivating the Virtual Environment
+
+To exit the virtual environment after you're done working:
+
+```bash
+deactivate
+```
+
+This will return your terminal to the system Python context.

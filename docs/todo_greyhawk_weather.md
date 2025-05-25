@@ -58,3 +58,23 @@ Enrich `longitudes_from_map.json` by adding:
 - [ ] Add error fallback for Ctrl+Z or no region selected
 - [ ] Re-enable optional export to campaign timeline
 
+---
+
+## 🌦 Greyhawk Weather + Climate System
+
+### Forecast Engine
+- [ ] Finalize CLI tool: `generate_daily_weather.py`
+- [ ] Add forecast formatting (emoji + newline-safe)
+- [ ] Support multi-day exports with overrideable day length
+
+### Climate Mapping
+- [ ] Complete lat/lon enrich for all regions in `longitudes_from_map.json`
+- [ ] Assign Köppen classes via color map + override narrative data
+- [ ] Export GeoJSON version for map tools
+
+### Encounter Tables & Hazards
+- [ ] Finalize terrain-based encounter table selector
+- [ ] Implement hazard clocks UI (Lost, Exhaustion, Reaction)
+- [ ] Integrate spell concentration tracker per turn roll
+
+---
