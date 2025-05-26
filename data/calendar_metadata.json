@@ -1,83 +1,26 @@
 {
   "days_of_week": [
-    {
-      "greyhawk": "Starday",
-      "real": "Saturday"
-    },
-    {
-      "greyhawk": "Sunday",
-      "real": "Sunday"
-    },
-    {
-      "greyhawk": "Moonday",
-      "real": "Monday"
-    },
-    {
-      "greyhawk": "Godsday",
-      "real": "Tuesday"
-    },
-    {
-      "greyhawk": "Waterday",
-      "real": "Wednesday"
-    },
-    {
-      "greyhawk": "Earthday",
-      "real": "Thursday"
-    },
-    {
-      "greyhawk": "Freeday",
-      "real": "Friday"
-    }
+    { "greyhawk": "Starday",   "real": "Saturday" },
+    { "greyhawk": "Sunday",    "real": "Sunday" },
+    { "greyhawk": "Moonday",   "real": "Monday" },
+    { "greyhawk": "Godsday",   "real": "Tuesday" },
+    { "greyhawk": "Waterday",  "real": "Wednesday" },
+    { "greyhawk": "Earthday",  "real": "Thursday" },
+    { "greyhawk": "Freeday",   "real": "Friday" }
   ],
   "months": [
-    {
-      "greyhawk": "Fireseek",
-      "real": "January"
-    },
-    {
-      "greyhawk": "Readying",
-      "real": "February"
-    },
-    {
-      "greyhawk": "Coldeven",
-      "real": "March"
-    },
-    {
-      "greyhawk": "Planting",
-      "real": "April"
-    },
-    {
-      "greyhawk": "Flocktime",
-      "real": "May"
-    },
-    {
-      "greyhawk": "Wealsun",
-      "real": "June"
-    },
-    {
-      "greyhawk": "Reaping",
-      "real": "July"
-    },
-    {
-      "greyhawk": "Goodmonth",
-      "real": "August"
-    },
-    {
-      "greyhawk": "Harvester",
-      "real": "September"
-    },
-    {
-      "greyhawk": "Patchwall",
-      "real": "October"
-    },
-    {
-      "greyhawk": "Ready'reat",
-      "real": "November"
-    },
-    {
-      "greyhawk": "Sunsebb",
-      "real": "December"
-    }
+    { "greyhawk": "Fireseek",    "real": "January",   "number": 1,  "season": "Winter" },
+    { "greyhawk": "Readying",    "real": "February",  "number": 2,  "season": "Winter" },
+    { "greyhawk": "Coldeven",    "real": "March",     "number": 3,  "season": "Winter" },
+    { "greyhawk": "Planting",    "real": "April",     "number": 4,  "season": "Spring" },
+    { "greyhawk": "Flocktime",   "real": "May",       "number": 5,  "season": "Spring" },
+    { "greyhawk": "Wealsun",     "real": "June",      "number": 6,  "season": "Low Summer" },
+    { "greyhawk": "Reaping",     "real": "July",      "number": 7,  "season": "High Summer" },
+    { "greyhawk": "Goodmonth",   "real": "August",    "number": 8,  "season": "High Summer" },
+    { "greyhawk": "Harvester",   "real": "September", "number": 9,  "season": "High Summer" },
+    { "greyhawk": "Patchwall",   "real": "October",   "number": 10, "season": "Autumn" },
+    { "greyhawk": "Ready'reat",  "real": "November",  "number": 11, "season": "Autumn" },
+    { "greyhawk": "Sunsebb",     "real": "December",  "number": 12, "season": "Winter" }
   ],
   "festivals": [
     "Needfest",

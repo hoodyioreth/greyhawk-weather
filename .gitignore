@@ -45,3 +45,6 @@ htmlcov/
 # Build artifacts
 build/
 dist/
+
+# Zip and archive files
+*.zip

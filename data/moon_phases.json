@@ -6,14 +6,17 @@
       "7": "waxing_half",
       "14": "full",
       "21": "waning_half"
-    }
+    },
+    "offset": 0
   },
   "Celene": {
-    "appearances": {
-      "Needfest": 4,
-      "Growfest": 4,
-      "Richfest": 4,
-      "Brewfest": 4
-    }
+    "cycle_days": 91,
+    "phases": {
+      "0": "new",
+      "23": "waxing_half",
+      "45": "full",
+      "68": "waning_half"
+    },
+    "offset": 43
   }
 }
