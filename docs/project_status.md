@@ -98,3 +98,31 @@ Generated: 2025-05-25 12:17
 
 ---
 
+# Greyhawk Weather — Project Status
+
+## Current Version
+- CLI tool version: `generate_daily_weather.py` v1.2.2
+- Calendar month view: `calendar_month_view.py` v0.3.2
+- Stable main branch tagged as `v1.2.2-stable` on GitHub
+
+## Recent Progress
+- Integrated full calendar month ASCII view with region-aware weather summaries
+- Added region prompt fixes and modular calendar utilities
+- Created `GIT_WORKFLOW.md` documenting branch-based workflow
+- .gitignore finalized and project README updated with Git workflow details
+
+## Next Major Features
+- Detailed daily weather stages (dawn, noon, dusk, midnight)
+- Weather persistence across days
+- Geographic influence between nearby towns
+
+## Current Focus
+- Prepare feature branches for safe development (e.g., `feature/daily-stages`)
+- Plan export functionality for TXT and MD formats
+- Begin unit tests and CI setup for project reliability
+
+---
+
+*Status last updated: [Insert date here]*
+
+

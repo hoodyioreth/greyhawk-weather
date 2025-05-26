@@ -1,44 +1,30 @@
-# GREYHAWK_WEATHER_FILE_REFERENCE.md
+# Greyhawk Weather — File Reference
 
-Master index of Python scripts and key data files for the Greyhawk Weather Generation project.
+## Data Files
 
----
+| Filename                             | Description                                                     | Status   |
+|------------------------------------|-----------------------------------------------------------------|----------|
+| `calendar_day_map.json`             | Maps day-of-year to Greyhawk month, day-of-month, weekdays, festivals | 🟢 Active |
+| `calendar_metadata.json`            | Master calendar metadata with seasons and real-world equivalents | 🟢 Active |
+| `moon_phases.json`                  | Defines Luna and Celene cycles and phase mappings               | 🟢 Active |
+| `longitudes_with_seasonal_profiles.json` | Region weather profiles and seasonal biases                   | 🟢 Active |
 
-## 📁 Data Files
+## Python Scripts
 
-| Filename                           | Description                                                        | Status   |
-|----------------------------------|------------------------------------------------------------------|----------|
-| `calendar_day_map.json`           | Maps 1–364 day-of-year to month, day, weekday, and festival using metadata. | 🟢 Active |
-| `calendar_metadata.json`          | Canonical source for month names, day-of-week labels, real-world equivalents, seasons, and numeric order. | 🟢 Active |
-| `moon_phases.json`                | Canonical, cycle-based moon phase system for Luna and Celene with offset & phase map. | 🟢 Active |
-| `longitudes_with_seasonal_profiles.json` | Enriched regional weather logic for forecast generation.      | 🟢 Active |
+| Filename                          | Purpose                                                        | Tags                         | Status   |
+|----------------------------------|----------------------------------------------------------------|------------------------------|----------|
+| `calendar_utils.py`               | Utilities for month, season, and real date resolution           | calendar, utils               | 🟢 Active |
+| `calendar_month_view.py`          | ASCII calendar month display with moon phases and weather       | calendar, cli, visual         | 🟢 Active |
+| `generate_daily_weather.py`       | Main CLI weather generator with daily and month view options    | weather, cli, calendar        | 🟢 Active |
 
----
+## Markdown Logs
 
-## 🔍 Python Scripts
-
-| Script                      | Purpose                                                         | Tags                           | Status   |
-|-----------------------------|-----------------------------------------------------------------|-------------------------------|----------|
-| `calendar_month_view.py`     | ASCII calendar display with moon phase & weather highlights    | `calendar`, `cli`, `visual`    | 🟢 Active |
-| `calendar_utils.py`          | Utility to query months, seasons, real month, etc.              | `calendar`, `utils`             | 🟢 Active |
-| `generate_daily_weather.py`  | CLI forecast tool with daily & full month views, region-based weather | `weather`, `cli`, `calendar` | 🟢 Active |
-
----
-
-## 📁 Exports
-
-- All `.txt` and `.md` forecast exports are generated in the `exports/` directory.
+| Filename                         | Description                                                   | Status   |
+|---------------------------------|---------------------------------------------------------------|----------|
+| `todo_greyhawk_weather.md`       | Project TODO list with task statuses                          | 🟢 Active |
+| `project_status.md`              | Overall project progress and version summary                  | 🟢 Active |
+| `GIT_WORKFLOW.md`                | Git branching and workflow guidelines                         | 🟢 Active |
 
 ---
 
-## 🔄 Session Wrap-Up (Most Recent Files)
-
-| Filename                  | Status   | Notes                                             |
-|---------------------------|----------|--------------------------------------------------|
-| calendar_month_view.py    | 🟢 Active | v0.3.2 with weather summaries and improved prompts |
-| calendar_utils.py         | 🟢 Active | month/season lookup utilities                      |
-| generate_daily_weather.py | 🟢 Active | v1.2.2 with calendar month view integration        |
-| calendar_day_map.json     | 🟢 Active | Primary day-to-date mapping                         |
-| calendar_metadata.json    | 🟢 Active | Master calendar metadata                            |
-| moon_phases.json          | 🟢 Active | Canonical moon cycle data                           |
-| longitudes_with_seasonal_profiles.json | 🟢 Active | Region weather profiles                      |
+*Last updated: [Insert date here]*
