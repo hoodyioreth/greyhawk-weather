@@ -1,110 +1,115 @@
+# ✅ TODO – Greyhawk Weather Generator Project  
+_Last updated: 2025-05-28_
+
+## 🔁 Completed Tasks (Do Not Delete – Archive Below)
+These items are DONE and preserved here for reference:
+
+- ✅ Color frequency scan of climate map image (top 20 RGBs)
+- ✅ Build `koppen_palette.json` from uploaded legend
+- ✅ Reduce `oerth_climate_map.png` to use only palette colors
+- ✅ Implement color-matching in `enrich_climate.py` v2
+- ✅ Create CLI `run_climate_pipeline_mac.sh` with clean-up option
+- ✅ Create Windows `.bat` version of pipeline runner
+- ✅ Auto-patch `longitudes_from_map.json` with climate classes
+- ✅ Replace previous climate output; treat `longitudes_from_map.json` as authoritative
+- ✅ Rebuild `weather_regions_greyhawk_pipeline_AUTO_FILLED_CORRECTED.json` with valid structure
+- ✅ Validate that all fields are filled and none are missing across JSON
+- ✅ Confirm Oerth map climate image resolution and lat/lon scaling
+- ✅ Regenerate TOC & Reference Lists (PROJECT_STATUS, TODO, FILE_REFERENCE)
 
 ---
 
-## ✅ Current Focus: Step 2 – Merge Seasonal Profiles
+## 🧭 Navigation & Metadata
 
-### Purpose
-Enrich `longitudes_from_map.json` by adding:
-- `seasonal_temperature_profile` — e.g., {"Fireseek": "cold", "Planting": "mild", ...}
-- `seasonal_weather_bias` — e.g., {"Fireseek": "snow", "Planting": "thunderstorm", ...}
+### 🔂 Project Structure & Workflow
+- [ ] Build or regenerate `README.md` explaining:
+  - Folder structure (`canonical`, `post_576CY`, etc.)
+  - Upload and sync order (e.g., load PDFs, then update `weather_regions.json`)
+  - Which files are canonical, which are drafts
+- [ ] Suggest tags for clarity in README (e.g., ✓ canon, ⚠ draft, 🕸 legacy)
 
-### Steps
-1. Load both JSONs:
-- `longitudes_from_map.json`
-- `greyhawk_months.json`
-2. Build a `month_to_season` mapping from `greyhawk_months.json`
-3. Define mapping logic:
-- `(climate_koppen, season)` → qualitative temperature
-- `(climate_koppen, season)` → dominant weather type
-4. Iterate over each region in `longitudes_from_map.json`
-- Assign temperature and weather bias for each month
-- Add to region JSON structure
-5. Output to: `longitudes_with_seasonal_profiles.json`
+### 🧱 File & Data Structure
+- [ ] Clean and reissue `weather_regions_greyhawk.json` with:
+  - Full region hierarchy from Classic Guide, Oerik Players Guide, Anna B. Meyer map
+  - Updated `proximity`, `travel_time_to`, `climate_koppen`, and `biome_notes`
+  - All lat/lon validated via `longitudes_from_map.json`
 
 ---
 
-## 🧭 Next Steps After This
-### Step 1 – CLI Weather Generator
-- Accepts region + month input
-- Returns daily weather based on enriched seasonal data
+## 🌐 GeoJSON & Coordinate Tools
 
-### Step 3 – Encounter & Travel Tags
-- Add `biome`, `encounter_risks`, `travel_difficulty_modifiers`
-- Supports hazard and monster encounter generation
+### Coordinates & Map Integration
+- [ ] Finish tool: `build_greyhawk_pipeline.py`
+  - Automates lat/lon patching, validation, matrix generation
+  - Optionally exports `.geojson`, `.csv`
+- [ ] Implement GUI/CLI clickable map interface:
+  - Drop pins and record lat/lon
+  - Zoom/pan support
+- [ ] Add scaffold/detection utility for:
+  - Equator and key latitude lines (e.g., Tropics)
+  - Create latitude_marker.json
 
----
-
-## Notes
-- Climate logic derived from Köppen codes + seasonal expectations
-- Regions without `climate_koppen` or season fallback will default to "temperate/mild"
-- Will integrate with travel system and Turn Dashboard in future phases
----
-
-## ✅ Today’s Completed Tasks
-
-- Reverted to a stable, working version of `generate_daily_weather.py`
-- Confirmed multi-day terminal output working correctly
-- Fixed calendar sync from `calendar_metadata.json`
-- Moon phase logic now consistently shows Luna (and Celene when relevant)
-- Export logic corrected and terminal display confirmed
-
-## 💤 Ready for Tomorrow
-
-- [ ] Consider restoring `preview_weather_region.py` as a lookup tool
-- [ ] Add error fallback for Ctrl+Z or no region selected
-- [ ] Re-enable optional export to campaign timeline
+### Validation & Distance Matrix
+- [ ] Run final check for:
+  - Missing fields in `longitudes_from_map.json` and `weather_regions_greyhawk.json`
+  - Fields like `lat`, `lon`, `center`, `climate_description`, etc.
+- [ ] Generate and verify `distance_matrix.json` from updated coordinates
 
 ---
 
-## 🌦 Greyhawk Weather + Climate System
+## 🌦 Climate Enrichment Pipeline
 
-### Forecast Engine
-- [ ] Finalize CLI tool: `generate_daily_weather.py`
-- [ ] Add forecast formatting (emoji + newline-safe)
-- [ ] Support multi-day exports with overrideable day length
-
-### Climate Mapping
-- [ ] Complete lat/lon enrich for all regions in `longitudes_from_map.json`
-- [ ] Assign Köppen classes via color map + override narrative data
-- [ ] Export GeoJSON version for map tools
-
-### Encounter Tables & Hazards
-- [ ] Finalize terrain-based encounter table selector
-- [ ] Implement hazard clocks UI (Lost, Exhaustion, Reaction)
-- [ ] Integrate spell concentration tracker per turn roll
-
----
-# Greyhawk Weather — TODO List
-
-## Completed
-
-- [x] Merge `greyhawk_months.json` into `calendar_metadata.json`
-- [x] Add canonical moon phase modeling for Luna and Celene
-- [x] Replace hardcoded months with `calendar_utils.py` lookups
-- [x] Integrate calendar month view into CLI with region-aware weather summaries
-- [x] Fix region prompt in calendar month view
-- [x] Create `GIT_WORKFLOW.md` for simple branching workflow
-- [x] Finalize `.gitignore` for Python/macOS/project files
-
-## Upcoming
-
-- [ ] Add export to `.txt` or `.md`
-- [ ] Highlight festival days or warnings in calendar and forecasts
-- [ ] Add unit tests for moon cycle wraparound logic
-- [ ] Add moonrise/moonset or visibility flags for moons
-- [ ] Refactor seasonal profiles to pull season names from `calendar_metadata.json`
-- [ ] Build shared utilities for month, season, and real-world date resolution
-- [ ] Restore and improve forecast export headers with campaign metadata
-
-## Advanced Features (Long-Term)
-
-- [ ] Implement detailed daily weather stages (dawn, noon, dusk, midnight)
-- [ ] Add weather persistence to simulate multi-day weather systems
-- [ ] Model geographic influence of weather between nearby towns using lat/lon and climate data
-- [ ] Setup GitHub Actions CI workflows for automated tests
-
-
+### Image Processing
+- [ ] Validate:
+  - All entries now match palette-derived Köppen codes
+  - All pixel color mismatches logged
+- [ ] Add support for:
+  - Manual override of climate for special regions (e.g., underdark, magical zones)
+- [ ] Recalibrate climate pixel → lat/lon transform for:
+  - `oerth_climate_map.png` vs. political map resolution mismatch
 
 ---
 
-*Last updated: [Insert date here]*
+## 📊 Preview & Display
+
+### Visual Tools
+- [ ] Generate preview map:
+  - Climate display using enriched lat/lon data
+  - Use vector, SVG, or Leaflet-style layout
+- [ ] Option: build lightweight macOS menu launcher or CLI browser
+
+### Scripts and Viewers
+- [ ] Script to display, filter, and edit `weather_regions_greyhawk.json`
+  - CLI menu for adding missing fields
+  - Optional: track update history/log
+- [ ] Add `-png` option to all DOT-exporting tools
+- [ ] Build long-term docs viewer for Markdown + JSON summaries
+
+---
+
+## 🗂 Project Management & Deployment
+
+### Archival & Versioning
+- [ ] Add auto-versioning to pipeline scripts
+- [ ] Always update:
+  - `GREYHAWK_COORDINATES_TODO.md`
+  - `GREYHAWK_FILE_REFERENCE.md`
+- [ ] Confirm these are included in:
+  - `archive_session_mac.sh`
+  - ZIP backups triggered by `goodnight`
+
+### GitHub & Virtual Environments
+- [ ] Refine `.gitignore` rules for:
+  - `venv/`, `__pycache__/`, `*.zip`, intermediate `.csv`, `.geojson`
+- [ ] Sync cleaned `run_climate_pipeline_mac.sh` and `.bat` versions to GitHub
+- [ ] Ensure `python3 -m venv venv` + `source venv/bin/activate` is included in all setup README/launchers
+
+---
+
+## 🧪 Enhancement Ideas (Lower Priority or Pending)
+
+- [ ] Annotate regions with political alignment, elevation, and faction notes
+- [ ] Enable real-time validation in the editor script
+- [ ] Add AI-assisted climate sanity checker
+- [ ] Generate regional encounter tables using biome + season + threat logic
+- [ ] Integrate with Turn Dashboard (hazards + weather sync)
